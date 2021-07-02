@@ -1,0 +1,160 @@
+@media only screen and (max-width:1200px) {
+    header {
+        height: 85vh
+    }
+
+    .row {
+        margin: 0 15px
+    }
+
+    .hero-text-box {
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .mobil-minu span {
+        display: block
+    }
+
+    .main-nav {
+        display: none
+    }
+
+    .logo {
+        margin-left: 1rem
+    }
+
+    html {
+        font-size: 57.5%
+    }
+
+    .testimonial-section .client-img {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+
+    .testimonial-section .client-review {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .span_1_of_4 {
+        width: 49.2%;
+        margin-left: 0
+    }
+
+    .span_1_of_4:nth-child(3) {
+        float: left
+    }
+
+    .span_1_of_4:nth-child(4) {
+        float: right
+    }
+
+    .services-section .col:nth-child(3) {
+        float: left
+    }
+
+    html {
+        font-size: 62.5%
+    }
+
+    .btn-submit {
+        padding: 1.7rem 2.3rem
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .little-description {
+        width: 90%;
+        margin-left: 5%
+    }
+
+    .footer-section ul li a {
+        font-size: 1.5rem
+    }
+
+    .footer-section ul li {
+        margin: 0 1rem
+    }
+
+    h1 {
+        font-size: 2.5rem
+    }
+
+    h2 {
+        font-size: 2.5rem
+    }
+
+    h3 {
+        font-size: 2rem
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .portfileo-section .span_1_of_2:nth-child(4) {
+        margin-left: 0
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .span_1_of_4 {
+        width: 100%
+    }
+
+    .services-section .col:nth-child(3) {
+        float: left;
+        margin-left: 0;
+        margin-top: 0
+    }
+
+    .footer-section {
+        width: 100%
+    }
+
+    .footer-section ul li {
+        padding: 1rem 0
+    }
+
+    .footer-section ul li a {
+        font-size: 2.4rem
+    }
+}
+
+@media only screen and (max-width:375px) {
+
+    .team-section h2,
+    .testimonial-section h2 {
+        font-size: 2rem
+    }
+}
+
+@media only screen and (max-width:360px) {
+
+    .team-section h2,
+    .testimonial-section h2 {
+        font-size: 2rem
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .team-section h2,
+    .testimonial-section h2 {
+        font-size: 1.8rem
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        line-height: 23px
+    }
+
+    .portfileo-section button:nth-child(4) {
+        margin-top: 1rem
+    }
+}
